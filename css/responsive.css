@@ -1,0 +1,98 @@
+.slicknav_menu{
+   display: none;
+}
+@media screen and (max-width: 992px){
+    
+    .slicknav_menu{
+        display: inline-block;
+        background: transparent;
+        position: fixed;
+        z-index: 1000;
+        right: 0px;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .slider{
+        margin-top: 112px;
+    }
+    header{
+        background: #34495e;
+    }
+    .slicknav_btn{
+        background: #e74c3c;
+        margin: 35px 30px 0 0;
+    }
+    .slicknav_nav{
+        background: #34495e;
+        width: 200px;
+    }
+    .slicknav_nav li{
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav li a:hover{
+        color: #e74c3c;
+        background: transparent;
+    }
+    /* slider height reduced */
+    #owl-demo , .item{
+        height: 450px;
+    }
+    .portfolio{
+        background-color: rgb(194, 139, 36);
+    }
+    .testimonials{
+        padding: 0 20px;
+    }
+
+    /* blog */
+    .blog .col-md-4 {
+        text-align: center;
+    }
+    .blog img {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    /* form */
+    .contact{
+        background:  #1f6065;
+    }
+    form.contact-form {
+        width: 65%;
+    }
+    /* footer */
+    footer{
+        text-align: center;
+    }
+    /* ===========animation=========== */
+    
+    /* =================================================================================== */
+}
+
+/* screen having width less then 381 */
+@media screen and (max-width: 420px) {
+    .item a{
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    form.contact-form {
+        width: 85%;
+    }
+}
+
+
